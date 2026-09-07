@@ -233,7 +233,7 @@ Vendors that fail a security assessment must remediate identified deficiencies w
 
 The risk register is provided in the accompanying Excel workbook. It documents the identified risks, likelihood and impact ratings, risk scores, control gaps, recommended responses, and corresponding NIST CSF 2.0 alignment.
 
-
+[View the Risk Register](./riskregister.xls)
 
 ## Lessons Learned
 
