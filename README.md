@@ -169,11 +169,11 @@ The company may not have sufficient security monitoring and alerting controls to
 
 Controls to Evaluate
 
-Security alerts for suspicious activity
-Continuous security monitoring
-Defined personnel responsible for investigating alerts
-Escalation procedures for potential incidents
-Documentation of investigation and response activities
+- Security alerts for suspicious activity
+- Continuous security monitoring
+- Defined personnel responsible for investigating alerts
+- Escalation procedures for potential incidents
+- Documentation of investigation and response activities
 
 Recommended Response
 
@@ -201,6 +201,30 @@ Controls to Evaluate
 Recommended Response
 
 The organization should establish clear vendor security standards, conduct periodic security assessments, benchmark vendor compliance against those standards, require remediation of identified deficiencies within two weeks, and terminate vendor services when deficiencies remain unresolved after subsequent review.
+
+## Compliance Framework Mapping
+
+### ISO/IEC 27001
+The case study aligns most closely with ISO/IEC 27001 because the incident involves information security risk management, access control, security monitoring, incident response, and third-party security.
+
+Key areas of alignment include:
+
+- Risk management: The risk register identifies threats, likelihood, impact, risk scores, and recommended treatments.
+- Access control: Least privilege, unique user identification, authorization, and restriction of third-party access are recommended.
+- Logging and monitoring: Security logging, continuous monitoring, alerting, and investigation procedures are addressed.
+- Incident management: The recommended Detect → Investigate → Contain → Remediate process addresses information security incident response.
+- Supplier security: Vendor security requirements, periodic assessments, remediation, reassessment, and enforcement are incorporated.
+- Continual improvement: Post-incident remediation and reassessment provide a basis for improving security controls.
+
+### SOC 2
+The case study also aligns strongly with the SOC 2 Trust Services Criteria, particularly Security, with secondary relevance to Confidentiality and Privacy.
+
+Key areas of alignment include:
+- Security: Access controls, monitoring, alerting, incident response, and third-party risk management.
+- Confidentiality: Controls designed to prevent unauthorized access to sensitive and confidential information.
+- Privacy: Protection and incident escalation involving potentially affected personal information.
+
+The case study does not attempt to demonstrate full SOC 2 compliance. Instead, the mapping demonstrates how the proposed controls relate to relevant SOC 2 control objectives.
 
 ## Recommended Incident Response
 1. Detect
